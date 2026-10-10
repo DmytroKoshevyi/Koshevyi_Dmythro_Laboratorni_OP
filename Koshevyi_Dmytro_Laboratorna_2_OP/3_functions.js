@@ -5,10 +5,10 @@ const average = (number1, number2) => {
 };
 console.log("Average of " + a + " " + b + " = " + average(a, b));
 const square = (number) => {
-    return number ** 2;
+    return number *number;
 };
 const cube = (number) => {
-    return number ** 3;
+    return number *number*number;
 };
 for (let i = 0; i <= 9; i++) {
     console.log(i + " squared = " + square(i));
