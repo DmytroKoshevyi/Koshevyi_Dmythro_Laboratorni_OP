@@ -22,4 +22,3 @@ for (let variable in iface()) {
     }
 }
 console.log(result);
-/*Формат виводу?*/
