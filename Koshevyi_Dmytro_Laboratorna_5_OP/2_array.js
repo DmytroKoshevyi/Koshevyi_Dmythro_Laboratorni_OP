@@ -3,7 +3,6 @@ const array= () =>{
     let innerArray=[];
     let value = (a)=>innerArray[a];
     value.pop=()=>innerArray.pop();
-    value.pop=(a)=>innerArray[0]=a;
     value.push = (a)=>innerArray.push(a);
     return value;
 }
